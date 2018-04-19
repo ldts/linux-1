@@ -434,6 +434,8 @@
 
 			pinctrl-names = "i2c0", "i2c_csi_dsi";
 
+			status = "disabled";
+
 			i2c0: i2c@0 {
 				reg = <0>;
 				#address-cells = <1>;
